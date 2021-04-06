@@ -1,3 +1,21 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Just Aashu"
+theme = "nix"
+
+[params]
+  Name = "Just Aashu"
+  HeaderUsername = "aashu"
+  HeaderHostname = "justaashu"
+  About = "Hello Friend, I am Aashu. I am a passionate Programmer, Tech Enthusiast and Youtuber. I have completed B. Tech from KJ Somaiya College of Engineering. I make fun youtube videos about programming and ethical hacking by solving CTF challenges on Try Hack Me or doing tutorial videos on `must know stuff`."
+  ProfilePicture = "images/logo.png"
+  YoutubeID = "UCEg939KadzK3zeJGEvqu7KQ"
+  FacebookID = "aashu.t.3979"
+  GithubID = "justaashu"
+  Email="justaashu22@gmail.com"
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
