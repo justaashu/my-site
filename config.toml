@@ -19,3 +19,8 @@ theme = "nix"
     name = "posts"
     weight = 0
     url = "/posts"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
